@@ -57,4 +57,5 @@ return require('packer').startup(function(use)
     use "hrsh7th/cmp-nvim-lsp"
     use "saadparwaiz1/cmp_luasnip"
     use "kmonad/kmonad-vim"
+    use "simrat39/rust-tools.nvim"
 end)

@@ -45,3 +45,9 @@ require("lspconfig").lua_ls.setup {
         }
     }
 }
+require("rust-tools").setup({
+    server = {
+        cmd = { "rustup", "run", "stable", "rust-analyzer" },
+        on_attach = on_attach,
+    }
+})

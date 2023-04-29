@@ -34,3 +34,8 @@ vim.keymap.set('n', '<leader><leader>m', ":!g++ --std=c++23 -pedantic-errors -Wa
 vim.g.vimwiki_list = { { path = '~/doc/vimwiki/' } }
 
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+
+
+-- neovide
+vim.g.neovide_refresh_rate = 390
+vim.g.neovide_transparency = 0.7
