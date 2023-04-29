@@ -1,0 +1,2 @@
+--vim.g.vimwiki_list = { path = '~/doc/vimwiki/' }
+--vim.cmd("let g:vimwiki_list = [{'path': '~/doc/vimwiki/'}]")
