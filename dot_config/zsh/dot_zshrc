@@ -1,0 +1,25 @@
+#alias startx=startx "XDG_CONFIG_HOME/X11/xinitrc"
+
+source ~/.profile
+
+autoload colors && colors
+PS1=' %~ > '
+
+alias ls='ls --color=auto'
+alias 2310='cd ~/doc/uni/csse2310'
+alias 3702='cd ~/doc/uni/comp3702'
+alias nvrc='cd ~/.config/nvim'
+alias zhrc='nvim ~/.config/zsh/.zshrc'
+alias vweb='cd ~/doc/npaul-site/root'
+alias moss='ssh s4804098@moss.labs.eait.uq.edu.au'
+
+path+=('/home/npaul/.local/bin')
+export path
+
+export EDITOR='nvim'
+alias v=$EDITOR
+
+export TERMINAL='st'
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
